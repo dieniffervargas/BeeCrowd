@@ -1,0 +1,11 @@
+import math
+lin = input()
+lin2 = input()
+x1,y1 = lin.split(" ")
+x2,y2 = lin2.split(" ")
+x1 = float(x1)
+y1 = float(y1)
+x2 = float(x2)
+y2 = float(y2)
+calculo = math.sqrt(pow(x2-x1,2) + pow(y2-y1,2))
+print("%0.4f" % (calculo))
