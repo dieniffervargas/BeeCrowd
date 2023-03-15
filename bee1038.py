@@ -1,7 +1,5 @@
 cod, qnt = map(int, input().split())
 
-total = 0
-
 match cod:
     case 1:
         val = 4.00
